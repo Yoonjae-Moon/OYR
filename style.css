@@ -1,3 +1,4 @@
+
 .container{
     height : 100vh;
     width : 100vw;
@@ -24,7 +25,7 @@ aside{
     background-position : center;
     background-repeat : no-repeat;
     width : 468.43px;
-    height : 634.15px;
+    /* height : 634.15px; */
 
     padding-top : 20px;
     display:flex;
@@ -42,48 +43,98 @@ aside{
 
 /* section */
 section{
-    
+    font-size : 14px;
+    display:flex;
+    flex-direction : column;
+    justify-content:center;
 }
 
-.logo{
-
+section div{
+    text-align : center;
+    margin-bottom : 10px;
 }
 
+/* log in */
 .log-in{
+    width : 350px;
+    height : 410px;
     border : solid 1px lightgray;
     display:flex;
     flex-direction:column;
     align-items:center;
 }
+.logo{
+    margin : 36px 0 36px 0;
+    width : 175px;
+    height : 51px;
+}
 
-.sign-in{
+.log-in input{
+    background-color : #fafafa;
+    margin : 5px;
+    width: 200px;
+    height : 20px;
+}
+
+.log-in button{
+    margin : 8px 0 0 8px;
+    width : 200px;
+    height : 20px;
+    background-color : #4CB5F9;
+    border : none;
+    border-radius : 5px;
+    align-items: center;
+    color : white;
+}
+
+.log-in div{
+    width : 200px;
+    display: flex;
+    flex-direction : row;
+}
+
+.log-in hr{
+    background-color : rgb(219, 219, 219);
+    opacity : 0.3;
+    height : 0.05px;
+    width : 40%;
+    /* height : 2px; */
+
+}
+
+
+.sign-up{
+    padding : 20px 0 20px 0;
     border : solid 1px lightgray;
     text-align : center;
 }
-.sign-in span{
+.sign-up span{
     color:blue;
 }
 .download-imgs{
-    display:flex;
-    flex-direction : row;
-    align-items:center;
+    width : 350px;
 }
 .download-imgs img{
-    width : 200px;
+    width : 134.28px;
+    height : 40px;
 }
 
 /* footer */
 footer{
+    font-size : 12px;
     height : 10%;
     background-color:lightgreen;
 }
 .footer-first{
     display:flex;
+    justify-content: center;
+    /* align-items : stretch; */
 
     /* flex-direction : row; */
 }
+.footer-first div{
+    margin: 0 10px;
+}
 .footer-second{
-    display:flex;
-    text-align:center;
-    align-items:center;
+    text-align : center;
 }
