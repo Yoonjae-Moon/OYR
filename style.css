@@ -5,46 +5,63 @@
 
 main{
     margin-top: 32px;
-    margin-bottom:32px; 
+    padding-bottom:32px; 
     height: 90%;
     display:flex;
     justify-content:center;
 }
 
+article{
+    width : 100%;
+    display:flex;
+    justify-content : center;
+    flex-basis:308.32px;
+}
 /* aside */
 aside{
-    width : 50%;
-    position:relative;
-}
+    background-image : url("photos/2phones.png");
+    background-size : 468.43px 634.15px;
+    background-position : center;
+    background-repeat : no-repeat;
+    width : 468.43px;
+    height : 634.15px;
 
-.background-phone{
-    size : 468.32px 634.15px;
-    z-index : 0;
+    padding-top : 20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* background, 이미지 위치 맞추고  */
+    /* 875px 이하에서 hidden */
 }
 
 .manyphotos{
-    z-index : 1;
+    width : 250px;
+    height : 538.84px;
 }
 
 
 /* section */
 section{
-    width : 50%;
-    background-color:lightblue;
+    
 }
 
-.section-contents{
+.logo{
+
+}
+
+.log-in{
+    border : solid 1px lightgray;
     display:flex;
     flex-direction:column;
     align-items:center;
 }
 
-/* hr : after{
-    content : "또는";
-} */
-
-.section-contents img{
-    height : 100px;
+.sign-in{
+    border : solid 1px lightgray;
+    text-align : center;
+}
+.sign-in span{
+    color:blue;
 }
 .download-imgs{
     display:flex;
