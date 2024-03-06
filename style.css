@@ -5,8 +5,8 @@
 }
 
 main{
-    margin-top: 32px;
-    padding-bottom:32px; 
+    padding-top: 32px;
+    /* padding-bottom:32px;  */
     height: 90%;
     display:flex;
     justify-content:center;
@@ -21,7 +21,7 @@ article{
 /* aside */
 aside{
     background-image : url("photos/2phones.png");
-    background-size : 468.43px 634.15px;
+    background-size : 468px 634px;
     background-position : center;
     background-repeat : no-repeat;
     width : 468.43px;
@@ -73,6 +73,7 @@ section div{
     background-color : #fafafa;
     border : none;
     margin : 5px;
+    padding-left : 10px;
     width: 270px;
     height : 40px;
 }
