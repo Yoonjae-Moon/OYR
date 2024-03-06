@@ -71,15 +71,16 @@ section div{
 
 .log-in input{
     background-color : #fafafa;
+    border : none;
     margin : 5px;
-    width: 200px;
-    height : 20px;
+    width: 270px;
+    height : 40px;
 }
 
 .log-in button{
     margin : 8px 0 0 8px;
-    width : 200px;
-    height : 20px;
+    width : 270px;
+    height : 35px;
     background-color : #4CB5F9;
     border : none;
     border-radius : 5px;
@@ -88,7 +89,8 @@ section div{
 }
 
 .log-in div{
-    width : 200px;
+    margin : 10px 0 10px 0;
+    width : 270px;
     display: flex;
     flex-direction : row;
 }
