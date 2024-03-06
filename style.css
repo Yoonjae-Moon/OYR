@@ -1,0 +1,72 @@
+.container{
+    height : 100vh;
+    width : 100vw;
+}
+
+main{
+    margin-top: 32px;
+    margin-bottom:32px; 
+    height: 90%;
+    display:flex;
+    justify-content:center;
+}
+
+/* aside */
+aside{
+    width : 50%;
+    position:relative;
+}
+
+.background-phone{
+    size : 468.32px 634.15px;
+    z-index : 0;
+}
+
+.manyphotos{
+    z-index : 1;
+}
+
+
+/* section */
+section{
+    width : 50%;
+    background-color:lightblue;
+}
+
+.section-contents{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* hr : after{
+    content : "또는";
+} */
+
+.section-contents img{
+    height : 100px;
+}
+.download-imgs{
+    display:flex;
+    flex-direction : row;
+    align-items:center;
+}
+.download-imgs img{
+    width : 200px;
+}
+
+/* footer */
+footer{
+    height : 10%;
+    background-color:lightgreen;
+}
+.footer-first{
+    display:flex;
+
+    /* flex-direction : row; */
+}
+.footer-second{
+    display:flex;
+    text-align:center;
+    align-items:center;
+}
