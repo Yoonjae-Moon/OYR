@@ -19,6 +19,13 @@ article{
     flex-basis:308.32px;
 }
 /* aside */
+@media (max-width: 875px) {
+    .hide {
+      display: none;
+    }
+}
+
+
 aside{
     background-image : url("photos/2phones.png");
     background-size : 468px 634px;
@@ -35,6 +42,10 @@ aside{
     /* 875px 이하에서 hidden */
 }
 
+aside img{
+    padding-left : 20px;
+    padding-bottom : 20px;
+}
 .manyphotos{
     width : 250px;
     height : 538.84px;
@@ -62,6 +73,7 @@ section div{
     display:flex;
     flex-direction:column;
     align-items:center;
+    justify-content : center;
 }
 .logo{
     margin : 36px 0 36px 0;
@@ -76,36 +88,52 @@ section div{
     padding-left : 10px;
     width: 270px;
     height : 40px;
+    outline-color : #dbdbdb;
 }
 
+/* .log-in input:focus{
+    outline-color : #dbdbdb;
+} */
+
 .log-in button{
-    margin : 8px 0 0 8px;
-    width : 270px;
+    margin : 8px 0 8px 0;
+    width : 280px;
     height : 35px;
     background-color : #4CB5F9;
     border : none;
     border-radius : 5px;
     align-items: center;
     color : white;
+    font-size : 16px;
+}
+.log-in button:hover{
+    background-color : #5D94EE;
 }
 
 .log-in div{
     margin : 10px 0 10px 0;
-    width : 270px;
+    width : 280px;
     display: flex;
     flex-direction : row;
+    align-items: center;
 }
 
 .log-in hr{
     background-color : rgb(219, 219, 219);
-    opacity : 0.3;
-    height : 0.05px;
+    /* border : 0; */
+    opacity : 0.5;
     width : 40%;
-    /* height : 2px; */
+    /* height : 1px; */
 
 }
 
+.facebook{
+    color:#445181;
+}
 
+.log-in p:hover{
+    cursor : pointer;
+}
 .sign-up{
     padding : 20px 0 20px 0;
     border : solid 1px lightgray;
@@ -122,15 +150,20 @@ section div{
     height : 40px;
 }
 
+.download-imgs img:hover{
+    cursor: pointer;
+}
+
 /* footer */
 footer{
     font-size : 12px;
     height : 10%;
-    background-color:lightgreen;
+    /* background-color:lightgreen; */
 }
 .footer-first{
     display:flex;
     justify-content: center;
+    flex-wrap : wrap;
     /* align-items : stretch; */
 
     /* flex-direction : row; */
