@@ -5,7 +5,7 @@
 }
 
 main{
-    padding-top: 32px;
+    padding-top: 16px;
     /* padding-bottom:32px;  */
     height: 90%;
     display:flex;
@@ -43,8 +43,8 @@ aside{
 }
 
 aside img{
-    padding-left : 20px;
-    padding-bottom : 20px;
+    padding-left : 100px;
+    padding-bottom : 65px;
 }
 .manyphotos{
     width : 250px;
@@ -55,6 +55,7 @@ aside img{
 /* section */
 section{
     font-size : 14px;
+    padding-bottom : 30px;
     display:flex;
     flex-direction : column;
     justify-content:center;
@@ -142,6 +143,9 @@ section div{
 .sign-up span{
     color:blue;
 }
+.sign-up span:hover{
+    cursor:pointer;
+}
 .download-imgs{
     width : 350px;
 }
@@ -173,4 +177,7 @@ footer{
 }
 .footer-second{
     text-align : center;
+}
+.footer-second select{
+    border : none;
 }
