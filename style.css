@@ -45,12 +45,14 @@ aside{
 aside img{
     padding-left : 100px;
     padding-bottom : 65px;
-}
-.manyphotos{
     width : 250px;
     height : 538.84px;
 }
 
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;    
+}
 
 /* section */
 section{
@@ -75,6 +77,15 @@ section div{
     flex-direction:column;
     align-items:center;
     justify-content : center;
+}
+
+.log-in input{
+    position : relative;
+    
+}
+.show-password{
+    position : absolute;
+    left : 75%;
 }
 .logo{
     margin : 36px 0 36px 0;
@@ -141,7 +152,7 @@ section div{
     text-align : center;
 }
 .sign-up span{
-    color:blue;
+    color:#5D94EE;
 }
 .sign-up span:hover{
     cursor:pointer;
