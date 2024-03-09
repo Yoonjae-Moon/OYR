@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
         // Fade-in the new image
         slideshowElement.style.opacity = 1;
-      }, 2000); // Match this timeout with your CSS transition duration
+      }, 1000); // Match this timeout with your CSS transition duration
     }
   
     // Initially, fade in the first image
