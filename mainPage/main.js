@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     let currentImageIndex = 0;
-    const images = ['photos/photo1.png', 'photos/photo2.png', 'photos/photo3.png', 'photos/photo4.png'];
+    const images = ['../photos/photo1.png', '../photos/photo2.png', '../photos/photo3.png', '../photos/photo4.png'];
     const slideshowElement = document.getElementById('slideshow');
   
     function changeImage() {

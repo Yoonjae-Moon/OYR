@@ -1,0 +1,54 @@
+.container{
+    width : 100vw;
+    height : 100vh;
+    display : flex;
+    flex-direction : row;
+
+}
+
+.logo {
+    width : 104px;
+    height : 30px;
+}
+
+aside{
+    width : 20%;
+    background-color : lightblue;
+    display : flex;
+    flex-direction : column;
+    position : relative;
+}
+
+
+main{
+    width : 50%;
+    background-color : lightseagreen;
+}
+
+.story{
+    height : 20%;
+    position : relative;
+    display : flex;
+    justify-content : space-around;
+}
+
+.storyContent{
+    display:flex;
+    flex-direction : column;
+}
+.storyContent img{
+    width : 66px;
+    height : 66px;
+    border-radius : 10px;
+}
+
+section{
+    width : 30%;
+    background-color : lightcoral;
+    position : relative;
+}
+
+.footer{
+    display:flex;
+    flex-wrap : wrap;
+}
