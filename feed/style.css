@@ -150,6 +150,9 @@ main article{
 .mainIcon i{
     padding : 8px;
 }
+.redHeart{
+    color : #ff3040;
+}
 .mainIcon i:hover{
     opacity : 0.5;
     cursor : pointer;
@@ -206,7 +209,6 @@ section{
     display:flex;
     flex-direction : column;
     justify-content : center;
-    /* text-align : center; */
     font-size : 14px;
     width : 180px;
 }
