@@ -1,3 +1,4 @@
+// addEventListner 활용
 var heartIcon = document.getElementById('heartIcon');
 
 heartIcon.addEventListener('click', function(){
@@ -10,3 +11,22 @@ heartIcon.addEventListener('click', function(){
     }
     
 });
+
+// modal 열기, onclick 사용하기
+var modal = document.getElementById("myModal");
+var icon = document.getElementById("myIcon");
+var span = document.getElementById("close");
+
+icon.onclick = function(){
+    modal.style.display = "block";
+}
+
+span.onclick = function(){
+    modal.style.display = "none";
+}
+
+window.onclick = function(event){
+    if (event.target == modal){
+        modal.style.display = "none";
+    }
+}

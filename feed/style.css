@@ -20,7 +20,7 @@ aside{
     /* padding-left : 12px; */
     display : flex;
     flex-direction : column;
-    position : sticky;
+    position : fixed;
 }
 
 aside div{
@@ -72,6 +72,8 @@ main{
     display : flex;
     flex-direction : column;
     align-items : center;
+    position : absolute;
+    margin-left : 225px;
     /* justify-content : center; */
 }
 
@@ -88,10 +90,14 @@ main{
     justify-content : center;
     align-items : center;
 }
-.storyContent img{
-    width : 66px;
-    height : 66px;
-    border-radius : 10rem;
+.circle{
+    width : 56px;
+    height : 56px;
+    border-radius : 50%;
+    background-image : url("../photos/sampleicon.jpg");
+    background-size : cover;
+    padding : 1px;
+    border : solid 1px;
 }
 
 main article{
@@ -112,10 +118,11 @@ main article{
     align-items : center;
 }
 .mainTop div{
-    width : 35%;
+    /* width : 35%; */
     display:flex;
     flex-direction : row;
-    justify-content : space-around;
+    gap:10px;
+    /* justify-content : space-around; */
     align-items : center;
 }
 .mainTop div img{
@@ -135,8 +142,10 @@ main article{
 .mainImg{
     height : 585px;
     width : 100%;
-    /* background-image : url(../photos/oyr.png); */
+    background-image : url(../photos/faker.jpeg);
     background-repeat : no-repeat;
+    background-position : center;
+    background-size : cover;
     border : solid 1px;
 }
 .mainIcon{
@@ -180,6 +189,7 @@ article input{
 /* section입니다. */
 section{
     width : 30%;
+    margin-left : 70%;
     /* background-color : lightcoral; */
     padding-top : 30px;
     display : flex;
@@ -269,4 +279,47 @@ section{
 }
 .footer span{
     margin : 0 3px;
+}
+
+/* modal */
+.modal{
+    display : none;
+    position : fixed;
+    z-index : 1;
+    width : 100%;
+    height : 100%;
+    left : 50%;
+    top : 50%;
+    background-color: rgba(0,0,0,0.4);
+    transform : translate(-50%, -50%);
+}
+
+.modal-content{
+    width : 80%;
+    height : 80%;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+}
+
+.modalAside{
+    width : 50%;
+    height : 100%;
+    background-image : url("../photos/faker.jpeg");
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size : cover;
+}
+
+.modalSection{
+    width : 50%;
+    height : 100%;
+    background-color : white;
+}
+.modal-content i{
+    color : red;
+}
+.modal-content i:hover{
+    cursor : pointer;
 }
