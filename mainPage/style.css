@@ -27,7 +27,7 @@ article{
 
 
 aside{
-    background-image : url("../photos/2phones.png");
+    background-image : url("/2phones.png");
     background-size : 468px 634px;
     background-position : center;
     background-repeat : no-repeat;
@@ -120,6 +120,7 @@ section div{
 }
 .log-in button:hover{
     background-color : #5D94EE;
+    cursor : pointer;
 }
 
 .log-in div{

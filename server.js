@@ -6,6 +6,9 @@ const port = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// 이미지, 퍼블릭
+app.use(express.static('public'));
+
 // mainPage 폴더를 '/mainPage' 경로로 서빙
 app.use('/mainPage', express.static('mainPage'));
 

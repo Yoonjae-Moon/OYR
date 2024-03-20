@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     let currentImageIndex = 0;
-    const images = ['../photos/photo1.png', '../photos/photo2.png', '../photos/photo3.png', '../photos/photo4.png'];
+    const images = ['/photo1.png', '/photo2.png', '/photo3.png', '/photo4.png'];
     const slideshowElement = document.getElementById('slideshow');
   
     function changeImage() {
@@ -23,4 +23,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // Change the image every 4 seconds
     setInterval(changeImage, 4000);
   });
+
+  function handleLoginClick(){
+    const userId = document.getElementById('userId').value;
+    const password = document.getElementById('password').value;
+    validateMember(userId, password);
+  }
+ 
+const validateMember = (id , password) => {
+		
+  if(id === "OYR2024" && password === "1234"){
+    window.location.href = '/feed';
+    // main 페이지로 넘어감
+  } else{
+    alert('잘못된 아이디 또는 비밀번호입니다.');
+    // 오류 메시지
+  }
+}
   
