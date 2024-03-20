@@ -24,7 +24,7 @@ aside{
     flex-direction : column;
     justify-content : space-around;
     position : fixed;
-    border-right : solid 1px;
+    border-right : solid 2px lightgray;
 }
 
 @media (max-width: 1400px) {
@@ -105,10 +105,12 @@ main{
     width : 56px;
     height : 56px;
     border-radius : 50%;
-    background-image : url("../photos/sampleicon.jpg");
+    background-image : url("/sampleicon.jpg");
     background-size : cover;
     padding : 1px;
-    border : solid 1px;
+    border : solid 2px red;
+    /* border-image: linear-gradient(to right, red, yellow) 1; */
+
 }
 
 main article{
@@ -153,7 +155,7 @@ main article{
     height : 585px;
     width : 100%;
     border-radius : 10px;
-    background-image : url(../photos/faker2.png);
+    background-image : url(/faker2.png);
     background-repeat : no-repeat;
     background-position : center;
     background-size : cover;
@@ -320,7 +322,7 @@ section{
 .modalAside{
     width : 50%;
     height : 100%;
-    background-image : url("../photos/faker2.png");
+    background-image : url("/faker2.png");
     background-repeat : no-repeat;
     background-position : center;
     background-size : cover;
@@ -337,7 +339,7 @@ section{
 
 .modalMain{
     height : 75%;
-    border : solid 1px;
+    border : solid 1px lightgray;
     display : flex;
     flex-direction : column;
 }

@@ -12,7 +12,7 @@ heartIcon.addEventListener('click', function(){
     
 });
 
-// modal 열기, onclick 사용하기
+// modal 열기, onclick 사용
 var modal = document.getElementById("myModal");
 var icon = document.getElementById("myIcon");
 var span = document.getElementById("close");
